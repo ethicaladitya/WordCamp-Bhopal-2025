@@ -444,7 +444,7 @@ only screen and (max-device-width: 480px) {
 }
 
 .page-id-736 #tix th {
-	background: linear-gradient(135deg, #000E43 0%, #050A30 100%);
+	background: linear-gradient(135deg, #1e73be 0%, #2563eb 100%);
 	color: #ffffff;
 	text-align: left;
 	padding: 1.25rem;
@@ -531,7 +531,7 @@ only screen and (max-device-width: 480px) {
 .page-id-736 #tix input[value*="Checkout"],
 .page-id-736 #tix input[value*="Complete"],
 .page-id-736 #tix button[name*="checkout"] {
-	background: linear-gradient(135deg, #000E43 0%, #050A30 100%);
+	background: linear-gradient(135deg, #1e73be 0%, #2563eb 100%);
 	color: white;
 	border: 3px solid #FE730E;
 	border-radius: 12px;
@@ -542,7 +542,7 @@ only screen and (max-device-width: 480px) {
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	transition: all 0.3s ease;
-	box-shadow: 0 6px 20px rgba(0, 14, 67, 0.4);
+	box-shadow: 0 6px 20px rgba(30, 115, 190, 0.4);
 	position: relative;
 	overflow: hidden;
 }
@@ -568,7 +568,7 @@ only screen and (max-device-width: 480px) {
 .page-id-736 #tix input[value*="Complete"]:hover,
 .page-id-736 #tix button[name*="checkout"]:hover {
 	background: linear-gradient(135deg, #FE730E 0%, #f97316 100%);
-	border-color: #000E43;
+	border-color: #1e73be;
 	color: white;
 	transform: translateY(-3px) scale(1.02);
 	box-shadow: 0 10px 25px rgba(254, 115, 14, 0.5);
@@ -585,13 +585,13 @@ only screen and (max-device-width: 480px) {
 /* Checkout button pulse animation */
 @keyframes checkout-pulse {
 	0% {
-		box-shadow: 0 6px 20px rgba(0, 14, 67, 0.4);
+		box-shadow: 0 6px 20px rgba(30, 115, 190, 0.4);
 	}
 	50% {
-		box-shadow: 0 6px 20px rgba(0, 14, 67, 0.6), 0 0 0 10px rgba(254, 115, 14, 0.1);
+		box-shadow: 0 6px 20px rgba(30, 115, 190, 0.6), 0 0 0 10px rgba(254, 115, 14, 0.1);
 	}
 	100% {
-		box-shadow: 0 6px 20px rgba(0, 14, 67, 0.4);
+		box-shadow: 0 6px 20px rgba(30, 115, 190, 0.4);
 	}
 }
 
@@ -654,24 +654,24 @@ only screen and (max-device-width: 480px) {
 	background: #fef5e7;
 }
 
-/* Coupon link styling - WordCamp Bhopal Navy Blue */
+/* Coupon link styling - WordCamp Bhopal Blue */
 #tix-coupon-link {
-	border: 2px solid #050A30;
-	color: #050A30;
+	border: 2px solid #1e73be;
+	color: #1e73be;
 	padding: 12px 20px;
 	border-radius: 10px;
 	text-decoration: none;
 	display: inline-block;
 	font-weight: 600;
 	transition: all 0.3s ease;
-	background: #f8faff;
+	background: #f0f7ff;
 }
 
 #tix-coupon-link:hover {
-	background-color: #050A30;
+	background-color: #1e73be;
 	color: white;
 	transform: translateY(-1px);
-	box-shadow: 0 4px 12px rgba(5, 10, 48, 0.3);
+	box-shadow: 0 4px 12px rgba(30, 115, 190, 0.3);
 }
 
 /* Coupon input field styling - WordCamp Bhopal Theme */
@@ -696,11 +696,11 @@ only screen and (max-device-width: 480px) {
 	background: #fef5e7;
 }
 
-/* Coupon submit button styling - WordCamp Bhopal Orange Accent */
+/* Coupon submit button styling - WordCamp Bhopal Blue Accent */
 .page-id-736 #tix input[type="submit"][value*="Apply"],
 .page-id-736 #tix .tix-coupon-submit,
 .page-id-736 #tix button[name="tix_coupon_submit"] {
-	background: linear-gradient(135deg, #000E43 0%, #050A30 100%);
+	background: linear-gradient(135deg, #1e73be 0%, #2563eb 100%);
 	color: white;
 	border: none;
 	border-radius: 8px;
@@ -715,9 +715,9 @@ only screen and (max-device-width: 480px) {
 .page-id-736 #tix input[type="submit"][value*="Apply"]:hover,
 .page-id-736 #tix .tix-coupon-submit:hover,
 .page-id-736 #tix button[name="tix_coupon_submit"]:hover {
-	background: linear-gradient(135deg, #050A30 0%, #1e293b 100%);
+	background: linear-gradient(135deg, #1d4ed8 0%, #1e40af 100%);
 	transform: translateY(-2px);
-	box-shadow: 0 4px 12px rgba(5, 10, 48, 0.3);
+	box-shadow: 0 4px 12px rgba(30, 115, 190, 0.3);
 }
 
 /* Coupon form container - WordCamp Bhopal Theme */
