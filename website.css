@@ -443,6 +443,23 @@ only screen and (max-device-width: 480px) {
 	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05), 0 1px 3px rgba(0, 0, 0, 0.1);
 }
 
+/* Table container for mobile scroll fallback */
+.page-id-736 #tix .tix-table-container {
+	overflow-x: auto;
+	-webkit-overflow-scrolling: touch;
+	margin: 0 -15px;
+	padding: 0 15px;
+}
+
+/* Ensure table text doesn't break */
+.page-id-736 #tix table td,
+.page-id-736 #tix table th {
+	word-wrap: break-word;
+	overflow-wrap: break-word;
+	white-space: normal;
+	min-width: 100px;
+}
+
 .page-id-736 #tix th {
 	background: linear-gradient(135deg, #1e73be 0%, #2563eb 100%);
 	color: #ffffff;
@@ -737,7 +754,62 @@ only screen and (max-device-width: 480px) {
 @media (max-width: 768px) {
 	.page-id-736 #tix table {
 		font-size: 14px;
+		display: block;
+		overflow-x: auto;
+		white-space: nowrap;
+		-webkit-overflow-scrolling: touch;
+		scroll-behavior: smooth;
 	}
+	
+	.page-id-736 #tix table thead,
+	.page-id-736 #tix table tbody,
+	.page-id-736 #tix table th,
+	.page-id-736 #tix table td,
+	.page-id-736 #tix table tr {
+		display: block;
+	}
+	
+	.page-id-736 #tix table thead tr {
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+	
+	.page-id-736 #tix table tr {
+		border: 1px solid #e5e7eb;
+		border-radius: 10px;
+		margin-bottom: 15px;
+		padding: 15px;
+		background: white;
+		box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	}
+	
+	.page-id-736 #tix table td {
+		border: none !important;
+		border-bottom: 1px solid #f3f4f6 !important;
+		position: relative;
+		padding: 12px 15px 12px 40% !important;
+		text-align: left !important;
+		word-wrap: break-word;
+		white-space: normal;
+	}
+	
+	.page-id-736 #tix table td:before {
+		content: attr(data-label);
+		position: absolute;
+		left: 15px;
+		width: 35%;
+		padding-right: 10px;
+		white-space: nowrap;
+		font-weight: 600;
+		color: #1e73be;
+	}
+	
+	/* Add data labels for mobile */
+	.page-id-736 #tix table td:nth-child(1):before { content: "Ticket Type"; }
+	.page-id-736 #tix table td:nth-child(2):before { content: "Price"; }
+	.page-id-736 #tix table td:nth-child(3):before { content: "Quantity"; }
+	.page-id-736 #tix table td:nth-child(4):before { content: "Total"; }
 	
 	.page-id-736 #tix th,
 	.page-id-736 #tix td {
@@ -795,6 +867,36 @@ only screen and (max-device-width: 480px) {
 	.page-id-736 #tix .tix-coupon-submit,
 	.page-id-736 #tix button[name="tix_coupon_submit"] {
 		width: 100%;
+	}
+}
+
+/* Extra small mobile devices */
+@media (max-width: 480px) {
+	.page-id-736 #tix table {
+		font-size: 13px;
+	}
+	
+	.page-id-736 #tix table td {
+		padding: 10px 12px 10px 38% !important;
+		font-size: 13px;
+	}
+	
+	.page-id-736 #tix table td:before {
+		left: 12px;
+		width: 33%;
+		font-size: 12px;
+	}
+	
+	.page-id-736 #tix table tr {
+		margin-bottom: 12px;
+		padding: 12px;
+	}
+	
+	/* Ensure text doesn't break awkwardly */
+	.page-id-736 #tix table td {
+		word-break: break-word;
+		overflow-wrap: break-word;
+		hyphens: auto;
 	}
 }
 
