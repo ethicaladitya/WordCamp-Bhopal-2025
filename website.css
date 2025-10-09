@@ -426,9 +426,10 @@ only screen and (max-device-width: 480px) {
 		padding: 0 !important;
 	}
 
-	.sponsors-section {
-		grid-template-columns: 2fr 2fr !important;
-		gap: 10px;
+	.sponsors-section .sponsor_grid,
+	.sponsors-section.wp-block-post-template {
+		grid-template-columns: repeat(2, 1fr) !important;
+		gap: 15px !important;
 	}
 }
 
@@ -1940,6 +1941,103 @@ only screen and (max-device-width: 480px) {
 	
 	.scroll-hint {
 		display: block;
+	}
+}
+
+/* === MINIMAL SPONSOR STYLING === */
+/* Equal sized sponsor grid */
+.sponsors-section.wp-block-post-template {
+	display: grid !important;
+	grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)) !important;
+	gap: 20px !important;
+	max-width: 1200px;
+	margin: 0 auto !important;
+	padding: 20px !important;
+}
+
+/* Equal sized sponsor cards */
+.sponsors-section .wp-block-post {
+	height: 140px !important;
+	display: flex !important;
+	align-items: center !important;
+	justify-content: center !important;
+	background: #fff !important;
+	border-radius: 12px !important;
+	box-shadow: 0 2px 8px rgba(0,0,0,0.1) !important;
+	transition: transform 0.3s ease !important;
+	border: 2px solid transparent !important;
+}
+
+/* Sponsor hover effect */
+.sponsors-section .wp-block-post:hover {
+	transform: translateY(-4px) !important;
+	border-color: #FE730E !important;
+	box-shadow: 0 8px 20px rgba(0,0,0,0.15) !important;
+}
+
+/* Equal sized logo containers */
+.sponsors-section .wp-block-post-featured-image {
+	width: 160px !important;
+	height: 80px !important;
+	display: flex !important;
+	align-items: center !important;
+	justify-content: center !important;
+	margin: 0 !important;
+	padding: 0 !important;
+	aspect-ratio: unset !important;
+}
+
+/* Logo link container - ensure vertical centering */
+.sponsors-section .wp-block-post-featured-image a {
+	display: flex !important;
+	align-items: center !important;
+	justify-content: center !important;
+	width: 100% !important;
+	height: 100% !important;
+}
+
+/* Equal sized logos */
+.sponsors-section .wp-block-post-featured-image img {
+	max-width: 160px !important;
+	max-height: 80px !important;
+	width: auto !important;
+	height: auto !important;
+	object-fit: contain !important;
+	filter: grayscale(20%) opacity(0.9) !important;
+	transition: filter 0.3s ease !important;
+	vertical-align: middle !important;
+}
+
+/* Logo hover effect */
+.sponsors-section .wp-block-post:hover .wp-block-post-featured-image img {
+	filter: grayscale(0%) opacity(1) !important;
+}
+
+/* Hide empty sponsors */
+.sponsors-section .wp-block-post:empty {
+	display: none !important;
+}
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+	.sponsors-section.wp-block-post-template {
+		grid-template-columns: repeat(2, 1fr) !important;
+		gap: 15px !important;
+		padding: 15px !important;
+	}
+	
+	.sponsors-section .wp-block-post {
+		height: 120px !important;
+	}
+	
+	.sponsors-section .wp-block-post-featured-image {
+		width: 140px !important;
+		height: 70px !important;
+	}
+	
+	.sponsors-section .wp-block-post-featured-image img {
+		max-width: 140px !important;
+		max-height: 70px !important;
 	}
 }
 
