@@ -432,7 +432,7 @@ only screen and (max-device-width: 480px) {
 	}
 }
 
-/* === Page ID 736 (Get A Pass Page) Styles === */
+/* === Page ID 736 (Get A Pass Page) - WordCamp Bhopal Brand Colors === */
 .page-id-736 #tix table {
 	width: 100%;
 	border-collapse: collapse;
@@ -444,7 +444,7 @@ only screen and (max-device-width: 480px) {
 }
 
 .page-id-736 #tix th {
-	background: linear-gradient(135deg, #1e40af 0%, #2563eb 100%);
+	background: linear-gradient(135deg, #000E43 0%, #050A30 100%);
 	color: #ffffff;
 	text-align: left;
 	padding: 1.25rem;
@@ -462,27 +462,27 @@ only screen and (max-device-width: 480px) {
 }
 
 .page-id-736 #tix tr:hover {
-	background-color: #f8faff;
+	background-color: #fef5e7;
 }
 
 .page-id-736 #tix tr:last-child td {
 	border-bottom: none;
 	padding: 50px 40px;
-	background: linear-gradient(135deg, #f8faff 0%, #f1f5f9 100%);
+	background: linear-gradient(135deg, #fef5e7 0%, #fed7aa 100%);
 }
 
-/* Ticket styling */
+/* Ticket styling - WordCamp Bhopal Orange Theme */
 .tix-ticket-2589,
 .tix-ticket-1372 {
-	border: 2px solid #fbbf24;
-	background: linear-gradient(135deg, #fffbeb 0%, #fef3c7 100%);
+	border: 2px solid #FE730E;
+	background: linear-gradient(135deg, #fef5e7 0%, #fed7aa 100%);
 	border-radius: 12px;
 	padding: 1.5rem;
 	margin-bottom: 1rem;
-	box-shadow: 0 2px 4px rgba(251, 191, 36, 0.1);
+	box-shadow: 0 2px 4px rgba(254, 115, 14, 0.15);
 }
 
-/* Form styling */
+/* Form styling - WordCamp Bhopal Theme */
 .page-id-736 #tix .attendee-form,
 .page-id-736 #tix form {
 	background: #ffffff;
@@ -499,13 +499,13 @@ only screen and (max-device-width: 480px) {
 	margin-bottom: 1.5rem;
 }
 
-/* Button styling */
+/* Main Register Button - WordCamp Bhopal Orange */
 .page-id-736 #tix .tix-submit,
 .page-id-736 #tix .tix-order .button,
 .page-id-736 #tix .register-btn,
 .page-id-736 #tix input[type="submit"][value*="Register"],
 .page-id-736 #tix .tix-submit .tix-checkout-button {
-	background: linear-gradient(135deg, #7c3aed 0%, #8b5cf6 100%);
+	background: linear-gradient(135deg, #FE730E 0%, #f97316 100%);
 	color: white;
 	border: none;
 	border-radius: 10px;
@@ -514,7 +514,7 @@ only screen and (max-device-width: 480px) {
 	font-weight: 600;
 	font-size: 16px;
 	transition: all 0.25s ease;
-	box-shadow: 0 4px 6px rgba(124, 58, 237, 0.2);
+	box-shadow: 0 4px 6px rgba(254, 115, 14, 0.3);
 }
 
 .page-id-736 #tix .tix-submit:hover,
@@ -522,12 +522,12 @@ only screen and (max-device-width: 480px) {
 .page-id-736 #tix .register-btn:hover,
 .page-id-736 #tix input[type="submit"][value*="Register"]:hover,
 .page-id-736 #tix .tix-submit .tix-checkout-button:hover {
-	background: linear-gradient(135deg, #6d28d9 0%, #7c3aed 100%);
+	background: linear-gradient(135deg, #ea580c 0%, #dc2626 100%);
 	transform: translateY(-2px);
-	box-shadow: 0 8px 15px rgba(124, 58, 237, 0.3);
+	box-shadow: 0 8px 15px rgba(254, 115, 14, 0.4);
 }
 
-/* Quantity input styling */
+/* Quantity input styling - WordCamp Bhopal Theme */
 .tix-column-quantity {
 	padding: 10px 12px;
 	font-size: 16px;
@@ -540,11 +540,11 @@ only screen and (max-device-width: 480px) {
 
 .tix-column-quantity:focus {
 	outline: none;
-	border-color: #2563eb;
-	box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+	border-color: #FE730E;
+	box-shadow: 0 0 0 3px rgba(254, 115, 14, 0.1);
 }
 
-/* General input styling for the page */
+/* General input styling for the page - WordCamp Bhopal Theme */
 .page-id-736 #tix input[type="text"],
 .page-id-736 #tix input[type="email"],
 .page-id-736 #tix select,
@@ -564,15 +564,15 @@ only screen and (max-device-width: 480px) {
 .page-id-736 #tix select:focus,
 .page-id-736 #tix textarea:focus {
 	outline: none;
-	border-color: #2563eb;
-	box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
-	background: #f8faff;
+	border-color: #FE730E;
+	box-shadow: 0 0 0 3px rgba(254, 115, 14, 0.1);
+	background: #fef5e7;
 }
 
-/* Coupon link styling */
+/* Coupon link styling - WordCamp Bhopal Navy Blue */
 #tix-coupon-link {
-	border: 2px solid #2563eb;
-	color: #2563eb;
+	border: 2px solid #050A30;
+	color: #050A30;
 	padding: 12px 20px;
 	border-radius: 10px;
 	text-decoration: none;
@@ -583,13 +583,13 @@ only screen and (max-device-width: 480px) {
 }
 
 #tix-coupon-link:hover {
-	background-color: #2563eb;
+	background-color: #050A30;
 	color: white;
 	transform: translateY(-1px);
-	box-shadow: 0 4px 12px rgba(37, 99, 235, 0.3);
+	box-shadow: 0 4px 12px rgba(5, 10, 48, 0.3);
 }
 
-/* Coupon input field styling */
+/* Coupon input field styling - WordCamp Bhopal Theme */
 .page-id-736 #tix #tix-coupon-input,
 .page-id-736 #tix input[name="tix_coupon"] {
 	width: 100%;
@@ -606,16 +606,16 @@ only screen and (max-device-width: 480px) {
 .page-id-736 #tix #tix-coupon-input:focus,
 .page-id-736 #tix input[name="tix_coupon"]:focus {
 	outline: none;
-	border-color: #2563eb;
-	box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
-	background: #f8faff;
+	border-color: #FE730E;
+	box-shadow: 0 0 0 3px rgba(254, 115, 14, 0.1);
+	background: #fef5e7;
 }
 
-/* Coupon submit button styling */
+/* Coupon submit button styling - WordCamp Bhopal Orange Accent */
 .page-id-736 #tix input[type="submit"][value*="Apply"],
 .page-id-736 #tix .tix-coupon-submit,
 .page-id-736 #tix button[name="tix_coupon_submit"] {
-	background: #10b981;
+	background: linear-gradient(135deg, #000E43 0%, #050A30 100%);
 	color: white;
 	border: none;
 	border-radius: 8px;
@@ -630,12 +630,12 @@ only screen and (max-device-width: 480px) {
 .page-id-736 #tix input[type="submit"][value*="Apply"]:hover,
 .page-id-736 #tix .tix-coupon-submit:hover,
 .page-id-736 #tix button[name="tix_coupon_submit"]:hover {
-	background-color: #059669;
+	background: linear-gradient(135deg, #050A30 0%, #1e293b 100%);
 	transform: translateY(-2px);
-	box-shadow: 0 4px 12px rgba(16, 185, 129, 0.3);
+	box-shadow: 0 4px 12px rgba(5, 10, 48, 0.3);
 }
 
-/* Coupon form container */
+/* Coupon form container - WordCamp Bhopal Theme */
 .page-id-736 #tix .tix-coupon-form,
 .page-id-736 #tix #tix-coupon-row {
 	display: flex;
@@ -643,8 +643,8 @@ only screen and (max-device-width: 480px) {
 	gap: 10px;
 	margin: 20px 0;
 	padding: 20px;
-	background: #f8faff;
-	border: 1px solid #e5e7eb;
+	background: #fef5e7;
+	border: 1px solid #FE730E;
 	border-radius: 12px;
 }
 
