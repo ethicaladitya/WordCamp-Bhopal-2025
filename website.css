@@ -644,6 +644,52 @@ only screen and (max-device-width: 480px) {
 	animation: none;
 }
 
+/* Generic Submit Button Styling - WordCamp Bhopal Theme */
+.page-id-736 #tix input[type="submit"]:not([value*="Checkout"]):not([value*="Complete"]):not([value*="Apply"]),
+#tix input[type="submit"]:not([value*="Checkout"]):not([value*="Complete"]):not([value*="Apply"]),
+.page-id-736 input[type="submit"]:not([value*="Checkout"]):not([value*="Complete"]):not([value*="Apply"]),
+input[type="submit"][value*="Save Attendee Information"],
+input[type="submit"][value*="Update"] {
+	background: linear-gradient(135deg, #FE730E 0%, #f97316 100%) !important;
+	color: white !important;
+	border: none !important;
+	border-radius: 10px !important;
+	padding: 1rem 2rem !important;
+	cursor: pointer !important;
+	font-weight: 600 !important;
+	font-size: 16px !important;
+	transition: all 0.25s ease !important;
+	box-shadow: 0 4px 6px rgba(254, 115, 14, 0.3) !important;
+	min-width: 150px !important;
+	margin: 0.5rem 0 !important;
+}
+
+.page-id-736 #tix input[type="submit"]:not([value*="Checkout"]):not([value*="Complete"]):not([value*="Apply"]):hover,
+#tix input[type="submit"]:not([value*="Checkout"]):not([value*="Complete"]):not([value*="Apply"]):hover,
+.page-id-736 input[type="submit"]:not([value*="Checkout"]):not([value*="Complete"]):not([value*="Apply"]):hover,
+input[type="submit"][value*="Save Attendee Information"]:hover,
+input[type="submit"][value*="Update"]:hover {
+	background: linear-gradient(135deg, #ea580c 0%, #FE730E 100%) !important;
+	transform: translateY(-2px) !important;
+	box-shadow: 0 8px 15px rgba(254, 115, 14, 0.4) !important;
+}
+
+/* Specific positioning for Save Attendee Information button */
+.page-id-736 #tix input[type="submit"][value*="Save Attendee Information"],
+input[type="submit"][value*="Save Attendee Information"] {
+	float: right !important;
+	margin-top: 1rem !important;
+	min-width: 200px !important;
+}
+
+/* Clear float styling improvement */
+.tix-clear {
+	clear: both;
+	height: 0;
+	overflow: hidden;
+	margin-top: 1rem;
+}
+
 /* Quantity input styling - WordCamp Bhopal Theme */
 .tix-column-quantity {
 	padding: 10px 12px;
