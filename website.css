@@ -650,7 +650,8 @@ only screen and (max-device-width: 480px) {
 .page-id-736 #tix input[type="text"],
 .page-id-736 #tix input[type="email"],
 .page-id-736 #tix select,
-.page-id-736 #tix textarea {
+.page-id-736 #tix textarea,
+.page-id-736 #tix_attendee_questions-1-1375 {
 	padding: 12px 16px;
 	border: 2px solid #e5e7eb;
 	border-radius: 8px;
