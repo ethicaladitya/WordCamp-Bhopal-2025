@@ -1135,8 +1135,8 @@ input[type="submit"][value*="Save Attendee Information"] {
 		}
 
 		.tix-attendee-list li img.avatar {
-			width: 75px !important;
-			height: 75px !important;
+			width: 100px !important;
+			height: 100px !important;
 		}
 
 		.tix-field.tix-attendee-name {
@@ -1683,7 +1683,7 @@ input[type="submit"][value*="Save Attendee Information"] {
 }
 
 #tix-attendees .tix-columns-3 li {
-	width: auto !important;
+	width: max-content;
 }
 
 .tix-attendee-list li:nth-child(1) {
