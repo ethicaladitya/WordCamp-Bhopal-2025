@@ -976,57 +976,9 @@ input[type="submit"][value*="Save Attendee Information"] {
 		}
 	}
 
-	/* Mobile Responsive - Single Column */
-	@media (max-width: 640px) {
-		#tix-attendees {
-			padding: 20px 16px;
-		}
-
-		.tix-attendee-list {
-			gap: 20px;
 
 
-		}
-
-		.tix-attendee-list {
-			max-width: none !important;
-		}
-
-		.tix-attendee-list li {
-			padding: 24px;
-		}
-
-		.tix-attendee-list li img.avatar {
-			width: 75px !important;
-			height: 75px !important;
-		}
-
-		.tix-field.tix-attendee-name {
-			font-size: 18px;
-		}
-
-		.tix-field.tix-attendee-twitter,
-		.tix-field.tix-attendee-url {
-			font-size: 13px;
-		}
-	}
-
-	@media (min-width: 992px) {
-		.tix-attendee-list {
-			grid-template-columns: repeat(4, 1fr);
-			gap: 40px;
-		}
-	}
-
-
-	@media (min-width: 1200px) {
-		.tix-attendee-list {
-			grid-template-columns: repeat(5, 1fr);
-		}
-	}
-
-
-
+	
 	@keyframes fadeIn {
 		from {
 			opacity: 0;
