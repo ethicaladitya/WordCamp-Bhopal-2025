@@ -542,15 +542,6 @@ only screen and (max-device-width: 480px) {
 	box-shadow: 0 4px 6px rgba(254, 115, 14, 0.3);
 }
 
-.page-id-736 #tix .tix-submit:hover,
-.page-id-736 #tix .tix-order .button:hover,
-.page-id-736 #tix .register-btn:hover,
-.page-id-736 #tix input[type="submit"][value*="Register"]:hover {
-	background: linear-gradient(135deg, #ea580c 0%, #FE730E 100%);
-	transform: translateY(-2px);
-	box-shadow: 0 8px 15px rgba(254, 115, 14, 0.4);
-}
-
 /* Final Checkout Button - Distinct Premium Styling */
 .page-id-736 #tix .tix-submit .tix-checkout-button,
 .page-id-736 #tix .tix-checkout-button,
@@ -559,7 +550,6 @@ only screen and (max-device-width: 480px) {
 .page-id-736 #tix button[name*="checkout"] {
 	background: linear-gradient(135deg, #1e73be 0%, #2563eb 100%);
 	color: white;
-	border: 3px solid #FE730E;
 	border-radius: 12px;
 	padding: 1.25rem 3rem;
 	cursor: pointer;
@@ -593,11 +583,9 @@ only screen and (max-device-width: 480px) {
 .page-id-736 #tix input[value*="Checkout"]:hover,
 .page-id-736 #tix input[value*="Complete"]:hover,
 .page-id-736 #tix button[name*="checkout"]:hover {
-	background: linear-gradient(135deg, #FE730E 0%, #f97316 100%);
 	border-color: #1e73be;
 	color: white;
 	transform: translateY(-3px) scale(1.02);
-	box-shadow: 0 10px 25px rgba(254, 115, 14, 0.5);
 }
 
 .page-id-736 #tix .tix-submit .tix-checkout-button:hover::before,
