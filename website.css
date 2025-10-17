@@ -497,12 +497,6 @@ only screen and (max-device-width: 480px) {
 	background-color: #fef5e7;
 }
 
-.page-id-736 #tix tr:last-child td {
-	border-bottom: none;
-	padding: 50px 40px;
-	background: linear-gradient(135deg, #fef5e7 0%, #fed7aa 100%);
-}
-
 /* Ticket styling - WordCamp Bhopal Orange Theme */
 .tix-ticket-2589,
 .tix-ticket-1372 {
