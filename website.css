@@ -530,7 +530,6 @@ only screen and (max-device-width: 480px) {
 .page-id-736 #tix .tix-order .button,
 .page-id-736 #tix .register-btn,
 .page-id-736 #tix input[type="submit"][value*="Register"] {
-	background: linear-gradient(135deg, #FE730E 0%, #f97316 100%);
 	color: white;
 	border: none;
 	border-radius: 10px;
