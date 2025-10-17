@@ -632,7 +632,6 @@ only screen and (max-device-width: 480px) {
 .page-id-736 input[type="submit"]:not([value*="Checkout"]):not([value*="Complete"]):not([value*="Apply"]),
 input[type="submit"][value*="Save Attendee Information"],
 input[type="submit"][value*="Update"] {
-	background: linear-gradient(135deg, #FE730E 0%, #f97316 100%) !important;
 	color: white !important;
 	border: none !important;
 	border-radius: 10px !important;
@@ -651,7 +650,6 @@ input[type="submit"][value*="Update"] {
 .page-id-736 input[type="submit"]:not([value*="Checkout"]):not([value*="Complete"]):not([value*="Apply"]):hover,
 input[type="submit"][value*="Save Attendee Information"]:hover,
 input[type="submit"][value*="Update"]:hover {
-	background: linear-gradient(135deg, #ea580c 0%, #FE730E 100%) !important;
 	transform: translateY(-2px) !important;
 	box-shadow: 0 8px 15px rgba(254, 115, 14, 0.4) !important;
 }
