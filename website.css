@@ -6,18 +6,15 @@
 	/* This prevents any unexpected overflow issues */
 }
 
-/* 2. Heading and Image Animation */
-/* Add a fade-in animation to the "WordPress" heading */
+
 .main_hero_section_heading {
 	animation: fadeInDown 1.5s ease-out;
 }
 
-/* Add a fade-in and slide-up animation to the "Bhopal" image */
 .wp-block-image.aligncenter.size-full.is-resized {
 	animation: fadeInUp 1.5s ease-out;
 }
 
-/* Keyframes for the text and image animations */
 @keyframes fadeInDown {
 	from {
 		opacity: 0;
